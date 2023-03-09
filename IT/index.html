@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">    
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+    <aside>
+        <div class="top">
+            <div class="logo">
+                <img src="img/logo-telkom-schools.png" alt="">
+                <h2>UANG<span class="danger">KAS</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </div>
+        </div>
+        <div class="sidebar"  >
+            <a href="#" class="active" >
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#" >
+                <span class="material-icons-sharp">person_outline</span>
+                <h3>Murid</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">groups</span>
+                <h3>Profiles</h3>
+            </a>
+            <a href="pembayaran.html">
+                <span class="material-icons-sharp">payments</span>
+                <h3>Pembayaran</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp"></span>
+                <h3></h3>
+                <span class="message-count"></span>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp"></span>
+                <h3></h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp"></span>
+                <h3></h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp"></span>
+                <h3></h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp"></span>
+                <h3></h3>
+            </a>
+            <a href="login.html">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+    </aside>
+    <main>
+        <h1>Dashboard</h1>
+
+        <div class="date">
+            <input type="date">
+        </div>
+
+        <div class="insights">
+            <div class="sales">
+                <span class="material-icons-sharp">analytics</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Total Pembayar Per minggu</h3>
+                        <h1>Rp 5.000</h1>
+                    </div>
+                    <div class="progress">
+                       
+                        <div class="number">
+                            
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">24 jam lalu</small>
+            </div>
+            <!--END SALES-->
+            <div class="expanses">
+                <span class="material-icons-sharp">bar_chart</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Total Uang Kas</h3>
+                        <h1>Rp 100.000</h1>
+                    </div>
+                    <div class="progress">
+                        
+                        <div class="number">
+                            
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">24 jam lalu</small>
+            </div>
+            <div class="income">
+                <span class="material-icons-sharp">stacked_line_chart</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Total Belum membayar</h3>
+                        <h1>Rp 1.000.000</h1>
+                    </div>
+                    <div class="progress">
+                      
+                        <div class="number">
+                            
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">24 jam lalu</small>
+            </div>
+            <!------>
+        </div>
+
+        <div class="recent-orders">
+            <h2>Murid yang belum bayar</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama Murid</th>
+                        <th>NIS</th>
+                        <th>Utang</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>nopal</td>
+                            <td>435345435</td>
+                            <td>Rp 100.000</td>
+                            <td class="warning">Pending</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>fathir</td>
+                            <td>8435436</td>
+                            <td>Rp 160.000</td>
+                            <td class="warning">Pending</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>rayhan</td>
+                            <td>324234</td>
+                            <td>Rp 100.000</td>
+                            <td class="warning">Pending</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>nasrun</td>
+                            <td>32423432</td>
+                            <td>Rp 100.000</td>
+                            <td class="warning">Pending</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>imam</td>
+                            <td>543543</td>
+                            <td>Rp 100.000</td>
+                            <td class="warning">Pending</td>
+                            
+                        </tr>
+                    </tbody>
+                    <a href="#">Show All</a>
+                </thead>
+            </table>
+        </div>
+    </main>
+   </div>
+</body>
+</html>
